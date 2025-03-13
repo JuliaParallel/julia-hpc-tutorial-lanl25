@@ -10,7 +10,7 @@ source ${__INSTALL_SH_DIR}/activate.sh
 mkdir -p ~/.local/share/jupyter/kernels
 pushd ~/.local/share/jupyter/kernels
     # cp -r /global/common/software/nersc9/julia/kernels/rendered/*-beta .
-    cp -r /global/common/software/nersc/julia_hpc_24/* .
+    cp -r /global/common/software/nersc/julia_hpc_24/kernels .
 popd
 
 julia_versions=("julia/1.8.5" "julia/1.9.4" "julia/1.10.8" "julia/1.11.3")
